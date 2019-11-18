@@ -20,9 +20,10 @@ One aspect of keeping users happy and engaged is recommending great and relevant
 
 ## Summary 
 
-**Sections include:**:
-Exploratory data analysis<br/>
-Rank-based recommendations<br/>
-User-user based collaborative filtering<br/>
-Matrix Factorization<br/>
+**Exploratory data analysis:** Basic visualizations and descriptive statistics on user-article interactions.
 
+**Rank-based recommendations:** One way to address the cold start problem is with rank-based recommendations. Essentially, if we do not know anything about the user, we provide top ranked articles (by interaction count).
+
+**User-user based collaborative filtering:** One of the most common ways to provide content recommendations is by finding users similar to the user in question, then suggesting content the similar user liked (or interacted with). This section explores multiple types of user-user collaborative filtering.
+
+**Matrix Factorization:** Another type of collaborative filtering that works on user-item interaction matrixes. Particularly, Singular Value Decomposition (SVD) was employed since the user-item matrix contained no NaNs.
